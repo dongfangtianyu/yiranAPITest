@@ -1,0 +1,391 @@
+INFO     2021-04-27 16:50:15,749 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 16:50:15,753 [requests.session]  : mock功能启动
+INFO     2021-04-27 16:50:15,755 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 16:50:16,008 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 16:50:16,009 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 16:50:16,188 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/
+INFO     2021-04-27 16:50:16,393 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 16:50:16,393 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 16:50:16,402 [conftest]  : ------------End: tests/test_login.py::test_login------------
+INFO     2021-04-27 16:50:16,403 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 16:50:16,404 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 16:50:16,404 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 16:50:16,405 [requests.session]  : mock功能启动
+INFO     2021-04-27 16:50:16,405 [test_self]  : x
+INFO     2021-04-27 16:50:16,405 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 16:50:16,406 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 16:50:16,406 [requests.session]  : mock功能启动
+INFO     2021-04-27 16:50:16,409 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 16:50:16,409 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 16:50:16,409 [requests.session]  : mock功能启动
+INFO     2021-04-27 16:50:16,411 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 16:50:16,512 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 16:50:16,515 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:03:01,180 [conftest]  : -Start: tests/test_login.py::test_login[test01-123456-302]--
+INFO     2021-04-27 17:03:01,184 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:03:01,186 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:03:01,422 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:03:01,423 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:03:01,689 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:03:01,690 [conftest]  : --End: tests/test_login.py::test_login[test01-123456-302]---
+INFO     2021-04-27 17:03:01,690 [conftest]  : Start: tests/test_login.py::test_login[test01-asdasdasdasas-200]
+INFO     2021-04-27 17:03:01,691 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:03:01,692 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:03:01,909 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:03:01,910 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:03:02,114 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:03:02,114 [conftest]  : End: tests/test_login.py::test_login[test01-asdasdasdasas-200]
+INFO     2021-04-27 17:03:02,115 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:03:02,116 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:03:02,117 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:03:02,117 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:03:02,118 [test_self]  : x
+INFO     2021-04-27 17:03:02,118 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:03:02,119 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:03:02,119 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:03:02,121 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:03:02,122 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:03:02,122 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:03:02,123 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:03:02,280 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:03:02,282 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:09:18,306 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:09:18,310 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:09:18,312 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:09:18,514 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:09:18,516 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:09:18,680 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:09:18,681 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:09:18,681 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:09:18,682 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:09:18,683 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:09:18,888 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:09:18,889 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:09:19,109 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:09:19,110 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:09:19,111 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:09:19,112 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:09:19,112 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:09:19,113 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:09:19,113 [test_self]  : x
+INFO     2021-04-27 17:09:19,114 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:09:19,114 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:09:19,114 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:09:19,116 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:09:19,117 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:09:19,117 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:09:19,118 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:09:19,287 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:09:19,290 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:28:30,507 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:28:30,734 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:28:30,734 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:28:30,763 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:28:30,764 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:28:30,764 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:28:30,765 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:28:30,765 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:28:30,766 [test_self]  : x
+INFO     2021-04-27 17:28:30,766 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:28:30,767 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:28:30,767 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:28:30,770 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:28:30,771 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:28:30,771 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:28:30,772 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:28:30,891 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:28:30,893 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:29:35,116 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:29:35,333 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:29:35,334 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:29:35,363 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:29:35,365 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:29:35,366 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:29:35,367 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:29:35,367 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:29:35,367 [test_self]  : x
+INFO     2021-04-27 17:29:35,368 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:29:35,368 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:29:35,368 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:29:35,372 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:29:35,373 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:29:35,373 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:29:35,374 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:29:35,615 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:29:35,618 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:30:06,528 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:30:06,966 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:30:06,968 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:30:07,166 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:30:07,167 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:30:07,352 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:30:07,353 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:30:07,353 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:30:07,353 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:30:07,355 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:30:07,562 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:30:07,563 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:30:07,768 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:30:07,769 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:30:07,770 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:30:07,771 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:30:07,772 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:30:07,772 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:30:07,772 [test_self]  : x
+INFO     2021-04-27 17:30:07,773 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:30:07,773 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:30:07,774 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:30:07,776 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:30:07,777 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:30:07,777 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:30:07,778 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:30:07,901 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:30:07,903 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:34:12,078 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:34:12,466 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:34:12,469 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:34:12,674 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:34:12,676 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:34:12,875 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:34:12,875 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:34:12,876 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:34:12,876 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:34:12,877 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:34:13,221 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:34:13,223 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:34:13,461 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:34:13,462 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:34:13,463 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:34:13,463 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:34:13,464 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:34:13,464 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:34:13,464 [test_self]  : x
+INFO     2021-04-27 17:34:13,464 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:34:13,465 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:34:13,465 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:34:13,468 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:34:13,468 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:34:13,468 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:34:13,469 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:34:13,596 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:34:13,598 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:41:19,461 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:41:19,852 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:41:19,854 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:41:20,058 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:41:20,060 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:41:20,253 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:41:20,253 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:41:20,253 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:41:20,253 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:41:20,254 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:41:20,508 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:41:20,509 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:41:20,707 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:41:20,708 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:41:20,709 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:41:20,710 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:41:20,711 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:41:20,711 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:41:20,711 [test_self]  : x
+INFO     2021-04-27 17:41:20,711 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:41:20,712 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:41:20,712 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:41:20,714 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:41:20,715 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:41:20,715 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:41:20,716 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:41:20,871 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:41:20,873 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:42:13,844 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:42:14,229 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:42:14,231 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:42:14,435 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:42:14,436 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:42:14,624 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:42:14,624 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:42:14,625 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:42:14,625 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:42:14,626 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:42:14,837 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:42:14,838 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:42:15,038 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:42:15,039 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:42:15,040 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:42:15,040 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:42:15,041 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:42:15,041 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:42:15,041 [test_self]  : x
+INFO     2021-04-27 17:42:15,042 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:42:15,042 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:42:15,042 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:42:15,045 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:42:15,045 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:42:15,045 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:42:15,047 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:42:15,162 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:42:15,164 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:43:48,608 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:50:44,535 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 17:50:44,538 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:50:44,540 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:50:44,741 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:50:44,743 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:50:44,931 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:50:44,931 [conftest]  : ------------End: tests/test_login.py::test_login------------
+INFO     2021-04-27 17:50:44,932 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:50:44,933 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:50:44,933 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:50:44,933 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:50:44,934 [test_self]  : x
+INFO     2021-04-27 17:50:44,934 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:50:44,935 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:50:44,935 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:50:44,937 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:50:44,938 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:50:44,938 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:50:44,939 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:50:45,093 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:50:45,095 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:51:59,482 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 17:52:00,159 [conftest]  : ------------End: tests/test_login.py::test_login------------
+INFO     2021-04-27 17:52:00,159 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:52:00,162 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:52:00,162 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:52:00,164 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:52:00,165 [test_self]  : x
+INFO     2021-04-27 17:52:00,165 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:52:00,165 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:52:00,166 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:52:00,168 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:52:00,168 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:52:00,169 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:52:00,170 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:52:00,308 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:52:00,310 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:52:18,790 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 17:54:40,495 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 17:54:40,881 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:54:41,103 [conftest]  : ------------End: tests/test_login.py::test_login------------
+INFO     2021-04-27 17:54:41,104 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:54:41,105 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:54:41,105 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:54:41,105 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:54:41,106 [test_self]  : x
+INFO     2021-04-27 17:54:41,106 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:54:41,107 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:54:41,107 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:54:41,110 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:54:41,111 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:54:41,111 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:54:41,112 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:54:41,243 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:54:41,245 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:54:57,988 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 17:55:00,236 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:57:27,581 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 17:57:27,590 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:57:27,591 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:57:27,800 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:57:27,801 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:57:28,040 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 17:57:28,041 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 17:57:28,041 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 17:57:28,046 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:57:28,048 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 17:57:28,319 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:57:28,320 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 17:57:28,526 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:57:28,526 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 17:57:28,527 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:57:28,528 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:57:28,528 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:57:28,528 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:57:28,528 [test_self]  : x
+INFO     2021-04-27 17:57:28,528 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:57:28,529 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:57:28,529 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:57:28,532 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:57:28,532 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:57:28,532 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:57:28,533 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:57:28,659 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:57:28,662 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:59:35,945 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 17:59:36,536 [conftest]  : ------------End: tests/test_login.py::test_login------------
+INFO     2021-04-27 17:59:36,536 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:59:36,539 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:59:36,539 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:59:36,541 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:59:36,541 [test_self]  : x
+INFO     2021-04-27 17:59:36,542 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:59:36,542 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:59:36,542 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:59:36,546 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:59:36,546 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:59:36,546 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:59:36,547 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:59:36,661 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:59:36,663 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 17:59:54,029 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 17:59:54,396 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:59:54,400 [conftest]  : ------------End: tests/test_login.py::test_login------------
+INFO     2021-04-27 17:59:54,400 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 17:59:54,401 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 17:59:54,401 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 17:59:54,401 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:59:54,402 [test_self]  : x
+INFO     2021-04-27 17:59:54,402 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 17:59:54,402 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 17:59:54,403 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:59:54,406 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 17:59:54,406 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 17:59:54,406 [requests.session]  : mock功能启动
+INFO     2021-04-27 17:59:54,407 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 17:59:54,521 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 17:59:54,522 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 18:01:04,938 [conftest]  : -----------Start: tests/test_login.py::test_login-----------
+INFO     2021-04-27 18:01:05,318 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:01:05,322 [conftest]  : ------------End: tests/test_login.py::test_login------------
+INFO     2021-04-27 18:01:05,323 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 18:01:05,323 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 18:01:05,324 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 18:01:05,324 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:01:05,324 [test_self]  : x
+INFO     2021-04-27 18:01:05,325 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 18:01:05,325 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 18:01:05,325 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:01:05,329 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 18:01:05,329 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 18:01:05,329 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:01:05,330 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 18:01:05,485 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 18:01:05,488 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------
+INFO     2021-04-27 18:03:51,776 [conftest]  : -----Start: tests/test_login.py::test_login[case_data0]-----
+INFO     2021-04-27 18:03:51,780 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:03:51,782 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 18:03:51,988 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 18:03:51,989 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 18:03:52,195 [requests.session]  : 接收响应<<< 状态码 = 302
+INFO     2021-04-27 18:03:52,196 [conftest]  : ------End: tests/test_login.py::test_login[case_data0]------
+INFO     2021-04-27 18:03:52,196 [conftest]  : -----Start: tests/test_login.py::test_login[case_data1]-----
+INFO     2021-04-27 18:03:52,197 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:03:52,198 [requests.session]  : 发送请求>>> 接口地址 = GET http://47.103.198.253/user/login
+INFO     2021-04-27 18:03:52,405 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 18:03:52,406 [requests.session]  : 发送请求>>> 接口地址 = POST http://47.103.198.253/user/login
+INFO     2021-04-27 18:03:52,647 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 18:03:52,647 [conftest]  : ------End: tests/test_login.py::test_login[case_data1]------
+INFO     2021-04-27 18:03:52,648 [conftest]  : ----------Start: tests/test_self.py::test_setting-----------
+INFO     2021-04-27 18:03:52,649 [conftest]  : -----------End: tests/test_self.py::test_setting------------
+INFO     2021-04-27 18:03:52,649 [conftest]  : ----------Start: tests/test_self.py::test_request-----------
+INFO     2021-04-27 18:03:52,649 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:03:52,650 [test_self]  : x
+INFO     2021-04-27 18:03:52,650 [conftest]  : -----------End: tests/test_self.py::test_request------------
+INFO     2021-04-27 18:03:52,651 [conftest]  : ------------Start: tests/test_self.py::test_mock------------
+INFO     2021-04-27 18:03:52,651 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:03:52,654 [conftest]  : -------------End: tests/test_self.py::test_mock-------------
+INFO     2021-04-27 18:03:52,654 [conftest]  : -----------Start: tests/test_self.py::test_fetch------------
+INFO     2021-04-27 18:03:52,654 [requests.session]  : mock功能启动
+INFO     2021-04-27 18:03:52,655 [requests.session]  : 发送请求>>> 接口地址 = GET http://m.baidu.com/
+INFO     2021-04-27 18:03:52,774 [requests.session]  : 接收响应<<< 状态码 = 200
+INFO     2021-04-27 18:03:52,776 [conftest]  : ------------End: tests/test_self.py::test_fetch-------------

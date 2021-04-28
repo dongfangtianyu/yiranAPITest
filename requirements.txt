@@ -1,0 +1,7 @@
+pytest
+requests
+requests-mock-df
+pyyaml
+openpyxl
+pandas
+pydantic[dotenv]
