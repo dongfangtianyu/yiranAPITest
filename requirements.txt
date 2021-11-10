@@ -5,3 +5,4 @@ pyyaml
 openpyxl
 pandas
 pydantic[dotenv]
+allure-pytest

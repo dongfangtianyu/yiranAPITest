@@ -1,3 +1,6 @@
+report:
+  out_dir: ./report   # allure html 输出路径
+
 session:      # 接口session
   base_url: "http://47.103.198.253"
   time_out: 4
@@ -50,4 +53,4 @@ logging:
     "":
       handlers:
         - file
-      level: DEBUG
+      level: INFO

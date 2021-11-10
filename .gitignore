@@ -1,3 +1,7 @@
 .idea
 .venv
 *.pyc
+
+# allure
+.allure_result_folder
+report

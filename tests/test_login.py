@@ -20,8 +20,8 @@ def case_data(request):
     return request.param
 
 
-def test_login(session, apis: Dict[str, ApiInfo], case_data):
-    """()
+def test_login(api_client, apis: Dict[str, ApiInfo], case_data):
+    """
     通过参数化测试测试登录接口
     """
     user_name, user_password, code, *case_info = case_data
@@ -29,7 +29,7 @@ def test_login(session, apis: Dict[str, ApiInfo], case_data):
     api = apis["get_token"]
     login_security = re.findall(
         r'"login_security" value="(.*?)" />',
-        session.request(api.method, api.url).text,
+        api_client.request(api.method, api.url).text,
     )
 
     api = apis["post_login"]
@@ -38,7 +38,7 @@ def test_login(session, apis: Dict[str, ApiInfo], case_data):
         "user_password": user_password,
         "login_security": login_security,
     }
-    req = session.request(
+    req = api_client.request(
         api.method,
         api.url,
         data=api.data,

@@ -44,6 +44,12 @@ class MockRule(BaseModel):
     response: Response
 
 
+class AllureSettings(BaseSettings):
+    allure_path: Optional[str] = ""
+    out_dir: Optional[str] = "./report"
+
+
 class Settings(BaseSettings):
     session: _SessionSettings
     mocks: List[MockRule]
+    report: AllureSettings
