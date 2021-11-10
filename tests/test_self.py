@@ -1,23 +1,25 @@
 import logging
 
+from libs import APISession
+
 logger = logging.getLogger(__name__)
 
 
 def test_setting(settings):
-    print(settings.base_url)
-    print(settings.time_out)
+    assert settings.session.base_url
+    assert settings.session.time_out
 
 
 def test_request(session):
-    logger.info("x")
+    assert isinstance(session, APISession)
 
 
 def test_mock(session):
-    resp = session.get("https://google.com")
+    resp = session.get("https://mock.google.com")
     assert resp.status_code == 200
     assert resp.json()["code"] == 1
 
-    resp = session.get("https://baidu.com")
+    resp = session.get("https://mock.baidu.com")
     assert resp.status_code == 200
     assert resp.json()["code"] == 2
 

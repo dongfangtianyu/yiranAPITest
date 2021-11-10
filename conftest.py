@@ -2,46 +2,38 @@ import logging
 import logging.config
 from typing import Dict
 
-import pandas
-import pandas as pd
 import pytest
 import yaml
 
 from libs import ApiInfo, APISession, Settings
 
-# 加载全局日志配置
-with open("conf/logging.yaml", encoding="utf-8") as f:
-    logging.config.dictConfig(yaml.safe_load(f))
-
 
 @pytest.fixture(scope="session")
 def settings():
     """加载配置文件"""
-    with open("conf/settings.yaml", encoding="utf-8") as f:
-        settings = Settings(**yaml.safe_load(f))
+
+    with open("settings.yaml", encoding="utf-8") as f:
+        conf = yaml.safe_load(f)
+
+    logging.config.dictConfig(conf.pop("logging"))
+
+    settings = Settings(**conf)
     return settings
 
 
-@pytest.fixture(scope="session")
-def mock_rule():
-    """加载mock规则"""
-    with open("conf/api_mock.yaml", encoding="utf-8") as f:
-        rule_list = list(yaml.safe_load_all(f))
-    return rule_list
-
-
 @pytest.fixture()
-def session(settings, mock_rule):
+def session(settings):
     """为每个测试用例创建一个session"""
-    session = APISession(**settings.dict())
-    for rule in mock_rule:
-        session.add_mock(**rule)
+    session = APISession(**settings.session.dict())
+    for rule in settings.mocks:
+        print(rule.dict())
+        session.add_mock(**rule.dict())
     return session
 
 
 @pytest.fixture()
 def apis() -> Dict[str, ApiInfo]:
-    """为每个测试用例创建一个session"""
+    """返回接口信息"""
     apis: Dict[str, ApiInfo] = {
         "get_token": ApiInfo(
             method="GET",

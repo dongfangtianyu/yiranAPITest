@@ -52,8 +52,10 @@ class APISession(requests.Session):
     def add_mock(self, request, response):
         """
         添加mock规则
-        :param request: 要mock的目标 {'method':'GET', 'url': 'https://google.com'}
-        :param response: mock 结果  {'status_code':200, 'headers':{”name":"sanmu"}, text='北京欢迎你'}
+        :param request: 要mock的目标
+            {'method':'GET', 'url': 'https://google.com'}
+        :param response: mock 结果
+            {'status_code':200, 'headers':{”name":"sanmu"}, text='北京欢迎你'}
         :return:
         """
         self.__mock.request(**request, **response)

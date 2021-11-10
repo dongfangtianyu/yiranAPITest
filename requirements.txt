@@ -1,6 +1,6 @@
 pytest
 requests
-requests-mock-df
+requests-mock
 pyyaml
 openpyxl
 pandas
