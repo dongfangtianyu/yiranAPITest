@@ -1,13 +1,12 @@
 import logging
 import logging.config
 import os
-from typing import Dict
 
 import pytest
 import yaml
 from _pytest.config import Config
 
-from libs import ApiInfo, APISession, Settings
+from libs import APISession, Settings
 from libs.settings import AllureSettings
 
 ALLURE_SETTINGS: AllureSettings

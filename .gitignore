@@ -5,3 +5,4 @@
 # allure
 .allure_result_folder
 report
+logs

@@ -1,9 +1,0 @@
-INFO     2021-04-26 18:03:56,691 [requests.session]  : mock功能启动
-INFO     2021-04-26 18:03:56,691 [requests.session]  : 添加了新规则{'method': 'GET', 'url': 'https://google.com'} {'status_code': 200, 'headers': {'create_by': 'mocker'}, 'json': {'code': 1, 'msg': 'hello'}}
-INFO     2021-04-26 18:03:56,692 [requests.session]  : 添加了新规则{'method': 'GET', 'url': 'https://baidu.com'} {'status_code': 200, 'headers': {'create_by': 'mocker'}, 'json': {'code': 2, 'msg': 'hello'}}
-INFO     2021-04-26 18:03:56,692 [test_login]  : x
-INFO     2021-04-26 18:03:56,693 [requests.session]  : mock功能启动
-INFO     2021-04-26 18:03:56,693 [requests.session]  : 添加了新规则{'method': 'GET', 'url': 'https://google.com'} {'status_code': 200, 'headers': {'create_by': 'mocker'}, 'json': {'code': 1, 'msg': 'hello'}}
-INFO     2021-04-26 18:03:56,695 [requests.session]  : 添加了新规则{'method': 'GET', 'url': 'https://baidu.com'} {'status_code': 200, 'headers': {'create_by': 'mocker'}, 'json': {'code': 2, 'msg': 'hello'}}
-DEBUG    2021-04-26 18:03:56,697 [requests_mock.adapter]  : GET https://google.com/ 200
-DEBUG    2021-04-26 18:03:56,698 [requests_mock.adapter]  : GET https://baidu.com/ 200
