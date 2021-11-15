@@ -1,7 +1,7 @@
 import logging
 from dataclasses import dataclass, field
 from typing import Text, Union
-from urllib.parse import urljoin
+from urllib.parse import urlparse
 
 import requests
 import requests_mock
@@ -33,7 +33,8 @@ class APISession(requests.Session):
         self, method: str, url: Union[str, bytes, Text], *args, **kwargs
     ) -> Response:
         if self.base_url:
-            url = urljoin(self.base_url, url)
+            url = self.urljoin(url)
+
         return super(APISession, self).request(method, url, *args, **kwargs)
 
     def send(self, request: PreparedRequest, **kwargs) -> Response:
@@ -60,6 +61,23 @@ class APISession(requests.Session):
         """
         self.__mock.request(**request, **response)
         self.logger.debug(f"添加了新规则{request} {response}")
+
+    def urljoin(self, url):
+        """
+        连接base_url 和 url
+        :param url:
+        :return:
+        """
+        if urlparse(url).netloc:  # 绝对路径不进行处理
+            return url
+
+        if self.base_url.endswith("/"):  # 移除末尾 /
+            self.base_url = self.base_url[:-1]
+
+        if url.startswith("/"):  # 移除起始 /
+            url = url[1:]
+
+        return "/".join([self.base_url, url])
 
 
 @dataclass
